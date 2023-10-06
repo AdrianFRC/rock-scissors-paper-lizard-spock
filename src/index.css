@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --scissors: 236 158 14;
+    --paper: 72 101 244;
+    --rock: 220 46 78;
+    --lizard: 131 79 227;
+    --cyan: 64 185 206;
+    --dark-text: 59 67 99;
+    --score-text: 42 70 192;
+    --header-outline: 96 110 133;
+    --radial: 31 55 86;
+    --radial-soft: 20 21 57;
+  }
+
+  html {
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+}
